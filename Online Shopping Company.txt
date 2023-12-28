@@ -1,0 +1,166 @@
+
+// ---------------------Main Page of Company-------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <style>
+        h1 {
+            font-family: Times New Roman;
+        }
+
+        body {
+            background-image: url(image5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            color: red
+        }
+    </style>
+</head>
+
+<body align="center">
+    <br>
+    <h1>myntra</h1>
+    <br><br><br><br><br><br>
+    <button><a href="about us.html">About Us</a></button>&nbsp;
+    <button><a href="contact.html">Contact</a></button>&nbsp;
+    <button><a href="collections.html">Collections</a></button>&nbsp;
+    <button><a href="login.html">login</a></button>&nbsp;
+    <button><a href="sign up.html">sign up</a></button>&nbsp;
+</body>
+
+</html>
+
+-----------------------------About Company---------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Company</title>
+</head>
+
+<body>
+    <p>
+    <h3>History of Company</h3><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio, nobis aut quae repellendus impedit quasi
+    consectetur autem et culpa atque porro ut tenetur odit magni expedita dolor maiores qui.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum repellat accusantium minus corporis quod
+    consequatur quam atque in quibusdam fugit et ipsam aut numquam, similique commodi tempora animi itaque error!
+    <br><br>
+
+    <h3>Acquisitions and investments</h3><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quaerat aperiam minus tempora. Ullam reiciendis,
+    natus commodi harum similique cum optio animi sunt laboriosam temporibus ut accusantium cumque recusandae doloribus.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero autem nobis laudantium molestiae? Delectus beatae
+    placeat doloribus inventore quibusdam eligendi nostrum, neque modi. Eos, repudiandae ea assumenda voluptates
+    voluptatem voluptatum!
+    </p>
+</body>
+
+</html>
+
+----------------------------Collections-------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+</head>
+
+<body>
+    <h2 align="center">Product Details</h2>
+    <h4>Men's Wear</h4>
+    <p>
+        <img src="mens wear 1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="mens wear 2.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="mens wear 3.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="mens wear 4.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="mens wear 5.jpg">&nbsp;
+    </p>
+    <h4>Kid's Wear</h4>
+    <p>
+        <img src="kids wear 1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="kids wear 2.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="kids wear 3.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="kids wear 4.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="kids wear 5.jpg">&nbsp;
+    </p>
+</body>
+
+</html>
+
+---------------------------------Login page of Company-------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <fieldset align="left">
+        <h2>Login Page</h2>
+
+        username
+        <input type="text" placeholder="Enter your name"> <br> <br>
+        password
+        <input type="text" placeholder="Enter your password"> <br> <br>
+
+        <button>Login</button>
+
+    </fieldset>
+</body>
+
+</html>
+
+
+--------------------------------SignUp Page of Company---------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <h4>SignUp Details</h4>
+    <p>
+        Name :
+        <input type="text"> <br><br><br>
+        Address :
+        <input type="text"> <br><br><br>
+        Contact No. :
+        <input type="text"> <br><br><br>
+        Place :
+        <input type="text">
+    </p>
+</body>
+
+</html>
+
