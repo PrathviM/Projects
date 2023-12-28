@@ -1,0 +1,88 @@
+// ----------------Login & Registration Page--------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Form</title>
+</head>
+
+<body>
+
+    <fieldset align="left">
+        <h2>LoginPage</h2>
+
+        username
+        <input type="text" placeholder="Enter your name"> <br> <br>
+        password
+        <input type="text" placeholder="Enter your password"> <br> <br>
+
+        <button>Login</button>
+
+    </fieldset>
+
+    <fieldset align="right">
+        <h2>RegistrationForm</h2>
+
+        username :
+        <input regusername="text"><br><br>
+        mail :
+        <input mail="text"><br><br>
+        password :
+        <input password="tel"><br><br>
+        confirmpassword :
+        <input confirmpassword="tel"><br><br>
+
+        <button>Registration</button>
+    </fieldset>
+</body>
+
+</html>
+
+*******************************************************************************************
+
+
+
+// ------------------SignUp Page------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+
+    <fieldset align="center">
+        <h2>SIGN UP</h2>
+
+        FirstName :
+        <input type="text" placeholder="" maxlength="6"> <br><br>
+
+        LastName :
+        <input type="text" placeholder="" maxlength="10"> <br><br>
+
+        Contact :
+        <input type="text" placeholder="" maxlength="10"> <br><br>
+
+        Address :
+        <input type="text" placeholder="" maxlength="40"> <br><br>
+
+        <br>
+
+        <Button>SIGN UP</Button>
+    </fieldset>
+</body>
+
+</html>
+
+

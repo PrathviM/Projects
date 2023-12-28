@@ -1,0 +1,88 @@
+package simple_project;
+import java.util.Scanner;
+public class Bank
+{
+	
+	static double balance=0;
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to bank");
+		Scanner a=new Scanner(System.in);
+		
+		int option=0;
+		while(option!=5)
+		{
+			System.out.println("1.Check balance");
+			System.out.println("2.Deposit amount");
+			System.out.println("3.Withdraw amount");
+			System.out.println("4.Exit application");
+			System.out.println("5.Invalid Option");
+			
+			option=a.nextInt();
+			switch(option)
+			{
+			case 1: CheckBalance();
+			break;
+			
+			case 2: DepositAmount();
+			break;
+			
+			case 3: WithdrawAmount();
+			break;
+			
+			case 4: ExitApplication();
+			break;
+			
+		    default : System.out.println("wrong option choosen");
+		    break;
+			}
+			
+		}
+	}
+	public static void ExitApplication() 
+	{
+		System.out.println("Thank you.......");
+	}
+
+	public static void WithdrawAmount() 
+	{
+		double amount=0;
+		Scanner c=new Scanner(System.in);
+		System.out.println("Enter the amount to be withdrawn");
+		amount=c.nextDouble();
+		
+		if(amount>balance)
+		{
+			System.out.println("insufficent funds");
+		}else {
+			balance-=amount;
+			System.out.println("Rs "+amount+" withdrawn from your account");
+		}
+//		CheckBalance();
+	
+	}
+
+	public static void DepositAmount() 
+	{
+	    double amount=0; 
+		Scanner b=new Scanner(System.in);
+		System.out.println("Enter the deposit amount");
+		amount=b.nextDouble();
+	    balance+=amount;
+	    System.out.println("Rs "+amount+" deposited to your account");
+	    
+//	    CheckBalance();
+	}
+
+	public static void CheckBalance() 
+	{
+		System.out.println("show the balance amount in account "+balance);
+	}
+       
+}
+
+
+
+
+

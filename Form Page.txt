@@ -1,0 +1,69 @@
+// ------------Form Page---------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+
+<body>
+    <h1>JOB APPLICATION FORM</h1>
+
+    <form action="hello.html">
+        <!--give address where this address needs to be stored in database (eg-hello.html is dumy)-->
+
+        Name;
+        <input type="text" placeholder="Enter your name"> <br> <br>
+        Email ID
+        <input type="email" placeholder="Enter your email id"> <br> <br>
+        Contact
+        <input type="tel" value="+91" maxlength="10"> <br> <br>
+        Password
+        <input type="password" placeholder="Enter your password" maxlength="8"> <br> <br>
+
+        Date of Birth:
+        <input type="datetime-local"> <br> <br>
+        Skills:
+        <input type="range">
+
+        <fieldset>
+            <!--square box-->
+            <legend align="center">SELECT YOUR GENDER</legend>
+            <input type="radio" name="gender"> Male <br>
+            <!--radio - round circle-->
+            <input type="radio" name="gender"> Female <br>
+            <input type="radio" name="gender">Others <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend align="center">SELECT YOUR SUBJECTS</legend>
+            <input type="checkbox">HTML <br>
+            <!--checkbox - square box-->
+            <input type="checkbox">CSS <br>
+            <input type="checkbox">JAVASCRIPT <br>
+            <input type="checkbox">PYTHON <br>
+            <input type="checkbox">SQL <br>
+            <input type="checkbox">MONGO DB <br>
+            <input type="checkbox">DOT NET
+        </fieldset>
+        <br>
+        Upload resume:
+        <input type="file"> <br> <br>
+
+        Upload Photo:
+        <input type="file"> <br> <br>
+
+        <input type="Submit">
+        <input type="reset">
+
+    </form>
+
+    <Button><a href="signup.html">SIGN UP</a></Button>
+</body>
+
+</html>
